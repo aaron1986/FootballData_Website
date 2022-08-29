@@ -1,0 +1,515 @@
+body {
+  background: url(../img/football.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+    height: 135px; 
+    background: black;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.webpage_title {
+    font-family: Cuprum;
+    font-size: 70px;
+    color: #B5B5B5;
+    letter-spacing: 13.5px;
+    text-align: right;
+    margin-right: 145px;
+    font-weight: 500;
+    margin-top: 1%;
+}
+
+.img-name {
+   height: 45px;
+   width: 128px;
+   margin-top: -3.5%;
+   margin-left: 5%;
+}
+
+
+.wall-sticker {
+    background: rgba(0,0,0,0.7);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 14rem 20rem 16rem 3rem; 
+}
+
+.css-10oeye7 {
+    color: #afacac;
+    font-family: "SF-UI-Display-Bold";
+    text-transform: uppercase;
+    padding: 35px 0px;
+    margin-top: 5%;
+}
+
+/* start of Contact Page */
+.wall-sticker_2 {
+    background: rgba(0, 0, 0, 0.911);
+    
+    padding-right: 20rem;  
+    padding-left: 3rem;
+    padding-bottom: 5%; 
+}
+
+input[type=text], select, textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #6C6E70;
+    padding: 12px;
+    margin-top: 16%;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea:focus, input:focus {
+    color: #b80909;
+}
+
+::placeholder {
+    color: #4f5153;
+}
+#fullName {
+    width: 300px;
+}
+
+#email {
+    width: 300px;
+}
+#message {
+    width: 600px;
+
+}
+input[type=submit] {
+    background: transparent;
+    color: #4f5153;
+    margin-top: 3%;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    height:45px;
+    width: 70px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* End of Contact Page */
+
+/*Start of Foooter */
+.wall-sticker_3 {
+    background: rgb(0, 0, 0);
+    margin-top: 0%;
+    padding: 2rem 2rem 2rem 2rem; 
+}
+
+footer {
+    width: 100%;
+}
+
+.copyright {
+    color: #4f5153;
+}
+
+
+/*End of Footer */
+
+@font-face {
+    font-family: cuprum;
+    src: url(../fonts/Cuprum-Bold.ttf)
+}
+@font-face {
+    font-family: cuprum_2;
+    src: url(../fonts/Cuprum-Regular.ttf)
+}
+
+@font-face {
+    font-family: SF-UI-Display-Bold;
+    src: url(../fonts/Covelia.otf);
+}
+
+@media screen and (max-width: 1280px) {
+    .webpage_title {
+        font-family: Cuprum;
+        font-size: 60px;
+        color: #262626;
+        letter-spacing: 13.5px;
+        text-align: right;
+        margin-right: 145px;
+        font-weight: 500;
+        margin-top: 1%;
+    }
+    .img-data {
+        margin-top: 2%;
+        height: 100px;
+        width: 200px;
+    }
+    input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .webpage_title {
+        font-family: Cuprum;
+        font-size: 35px;
+        color: #262626;
+        letter-spacing: 13.5px;
+        text-align: right;
+        margin-right: 90px;
+        font-weight: 500;
+        margin-top: 2%;
+    }
+    .img-name {
+        height: 35px;
+        width: 128px;
+        margin-top: -3%;
+        margin-left: 5%;
+     }
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .webpage_title {
+        font-family: Cuprum;
+        font-size: 35px;
+        color: #262626;
+        letter-spacing: 13.5px;
+        text-align: right;
+        margin-right: 90px;
+        font-weight: 500;
+        margin-top: 2%;
+    }
+    .img-name {
+        height: 35px;
+        width: 128px;
+        margin-top: 3%;
+        margin-left: 5%;
+     }
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .webpage_title {
+        font-family: Cuprum;
+        font-size: 30px;
+        color: #262626;
+        letter-spacing: 13.5px;
+        text-align: right;
+        margin-right: 90px;
+        font-weight: 500;
+        margin-top: 2%;
+    }
+    .img-name {
+        height: 35px;
+        width: 128px;
+        margin-top: 3%;
+        margin-left: 5%;
+     }
+
+     #message {
+         width: 300px;
+     }
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 658px) {
+    .webpage_title {
+        font-family: Cuprum;
+        font-size: 25px;
+        color: #262626;
+        letter-spacing: 13.5px;
+        text-align: right;
+        margin-right: 90px;
+        font-weight: 500;
+        margin-top: 2%;
+    }
+    .img-name {
+        height: 35px;
+        width: 128px;
+        margin-top: 3%;
+        margin-left: 5%;
+     }
+     
+     #message {
+        width: 300px;
+     }
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 610px) {
+    .webpage_title {
+    font-family: Cuprum;
+    font-size: 20px;
+    color: #262626;
+    letter-spacing: 13.5px;
+    text-align: right;
+    margin-right: 50px;
+    font-weight: 500;
+    margin-top: 2%;
+    }
+
+    .img-name {
+        height: 30px;
+        width: 128px;
+        margin-top: 3%;
+        margin-left: 5%;
+     }
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 530px) {
+    .webpage_title {
+    font-family: Cuprum;
+    font-size: 20px;
+    color: #262626;
+    letter-spacing: 13.5px;
+    text-align: right;
+    margin-right: 40px;
+    font-weight: 500;
+    margin-top: 2%;
+    }
+
+    .img-name {
+        height: 30px;
+        width: 128px;
+        margin-top: 3%;
+        margin-left: 5%;
+     } 
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .webpage_title {
+    font-family: Cuprum;
+    font-size: 15px;
+    color: #262626;
+    letter-spacing: 13.5px;
+    text-align: right;
+    margin-right: 40px;
+    font-weight: 500;
+    margin-top: 2%;
+    }
+
+    .img-name {
+        height: 30px;
+        width: 128px;
+        margin-top: 3%;
+        margin-left: 5%;
+     }
+
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .webpage_title {
+    font-family: Cuprum;
+    font-size: 13px;
+    color: #262626;
+    letter-spacing: 12px;
+    text-align: right;
+    margin-right: 2%;
+    font-weight: 500;
+    margin-top: 2%;
+    }
+
+    .img-name {
+        height: 30px;
+        width: 128px;
+        margin-top: 3%;
+        margin-left: 5%;
+     }
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .webpage_title {
+    font-family: Cuprum;
+    font-size: 13px;
+    color: #262626;
+    letter-spacing: 6px;
+    margin-left: 6%;
+    font-weight: 500;
+    margin-top: 3%;
+    }
+
+    .img-name {
+        height: 20px;
+        width: 128px;
+        margin-top: 3%;
+        margin-left: 5%;
+     }
+     input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 60px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    header {
+        width: 100%;
+    }
+    #fullName {
+        width: 200px;
+    }
+    
+    #email {
+        width: 200px;
+    }
+    #message {
+        width: 200px;
+    }
+    .webpage_title {
+        font-family: Cuprum;
+        font-size: 15px;
+        color: #262626;
+        letter-spacing: 6px;
+        margin-left: -3%;
+        font-weight: 500;
+        margin-top: 0%;
+        padding-right: 9%;
+        }
+    ::placeholder {
+        color: #4f5153;
+        font-size: 12px;
+    }
+    input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 55px;
+        font-size: 13px;
+    }
+    .copyright {
+        color: #4f5153;
+        font-size: 12px;
+    }
+    .img-name {
+        margin-left: 30%;
+     }
+}
+
+@media screen and (max-width: 360px) {
+    input[type=submit] {
+        background: transparent;
+        color: #4f5153;
+        margin-top: 3%;
+        border: 1px solid;
+        border-radius: 5px;
+        cursor: pointer;
+        height:30px;
+        width: 55px;
+        font-size: 12px;
+    }
+    .wall-sticker {
+        background: rgba(0,0,0,0.7);
+        margin-top: 2%;
+        margin-bottom: 2%;
+        padding: 14rem 20rem 16rem 1rem; 
+    }
+    .wall-sticker_2 {
+        background: rgba(0, 0, 0, 0.911);
+        
+        padding-right: 20rem;  
+        padding-left: 1rem;
+        padding-bottom: 5%; 
+    }
+}
